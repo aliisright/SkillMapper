@@ -5,9 +5,9 @@ Map your web developer skills using this skill tree tool made with PHP and React
 ## It's a school project!
 
 ###In the documentation folder you find:
-* **Mock-ups - Wireframe.cc
+* **Mock-ups** - Wireframe.cc
 * Class chart - StarUML
-* **Use case chart - StarUML
+* **Use case chart** - StarUML
 
 ## Getting Started
 
