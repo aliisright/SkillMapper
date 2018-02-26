@@ -1,13 +1,13 @@
 # SkillTree
 
-Map your web developer skills using this skill tree tool made with PHP and ReactJS and love!
+Map your web developer skills using this skill tree tool made with PHP, ReactJS and love!
 
 ## It's a school project!
 
-### In the documentation folder you find:
-* *Mock-ups* - Wireframe.cc
-* **Class chart** - StarUML
-* *Use case chart* - StarUML
+### In the documentation folder you'll find:
+* Mock-ups - Wireframe.cc
+* Class chart - StarUML
+* Use case chart - StarUML
 
 ## Getting Started
 
