@@ -1,6 +1,6 @@
 # SkillTree
 
-Map your web developer skills using this skill tree tool made with PHP, ReactJS and love!
+Map your web developer skills using this skill tree tool made with PHP, ReactJS and some love!
 
 ## It's a school project!
 
