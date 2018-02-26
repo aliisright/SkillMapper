@@ -8,7 +8,8 @@ Map your web developer skills using this skill tree tool made with PHP, ReactJS 
 * Mock-ups - Wireframe.cc
 * Class chart - StarUML
 * Use case chart - StarUML
-* [My Trello]('https://trello.com/b/6ajRCIu7/skilltree')  - Functional scenarios and user stories
+
+* [Click here to check my Trello!](https://trello.com/b/6ajRCIu7/skilltree)  - Functional scenarios and user stories
 
 ## Getting Started
 
