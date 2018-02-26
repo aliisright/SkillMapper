@@ -10,6 +10,7 @@ Map your web developer skills using this skill tree tool made with PHP, ReactJS 
 * Use case chart - StarUML
 
 * [Click here to check my Trello!](https://trello.com/b/6ajRCIu7/skilltree)  - Functional scenarios and user stories
+* [Project presentation](http://slides.com/aliisright/deck-90add8c1-80f8-49ce-9c10-b282d01b928d/fullscreen) - Slides.com
 
 ## Getting Started
 
