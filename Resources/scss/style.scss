@@ -1,0 +1,58 @@
+.skill-box {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-box-locked {
+  filter: grayscale(100);
+}
+
+.skill-box-unlocked {
+  opacity: 0.3;
+}
+
+a .skill-box-unlocked:hover {
+  opacity: 1;
+}
+
+.level-box {
+  margin-right: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-delete-button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background: lightgrey;
+
+  position: absolute;
+  top: 25px;
+  left: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #0278AE;
+  height: 100vh;
+  box-shadow: 1px 1px 5px 1px #194769 inset;
+}
+
+.logo {
+  font-family: 'Patua One', serif;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
