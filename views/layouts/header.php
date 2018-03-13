@@ -12,18 +12,18 @@
     <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
   </head>
   <body>
-
-    <div class="row">
-      <header class="col-md-1">
-        <div class="logo">
-          <h1>Skill
-            Tree</h1>
-            <hr>
-        </div>
-        <div class="text-center p-3">
-          <img src="http://colloqueatpf2017.com/public/yolo_img/login_white_icon.png" width="30px">
-        </div>
-        <div class="text-center p-3">
-          <img src="http://store.kedgebs.com/img/logout.png" width="30px">
-        </div>
-      </header>
+    <div class="container-fluid">
+      <div class="row">
+        <header class="col-md-1">
+          <div class="logo">
+            <h1>Skill
+              <br><span class="text-size-m">Mapper</span></h1>
+              <hr>
+          </div>
+          <div class="text-center p-3">
+            <img src="http://colloqueatpf2017.com/public/yolo_img/login_white_icon.png" width="30px">
+          </div>
+          <div class="text-center p-3">
+            <img src="http://prosoundformula.com/wp-content/uploads/2015/04/logout-big-icon-200px.png" width="30px">
+          </div>
+        </header>

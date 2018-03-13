@@ -2,7 +2,7 @@
 //CONNEXION MEMBRE
 function login() {
   session_start();
-  if($_SESSION['connected']) {
+  if(isset($_SESSION['connected'])) {
     header('location: index.php');
   } else {
     require 'controllers/providor.php';
@@ -42,4 +42,11 @@ function login() {
   }
 
 
+}
+
+function logout() {
+  session_start();
+  $_SESSION = array();
+  session_destroy();
+  header('location: ./login.php');
 }

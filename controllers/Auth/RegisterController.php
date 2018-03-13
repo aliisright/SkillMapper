@@ -28,11 +28,26 @@ function register() {
 
                 if($nicknameExists == 0) {
                   //User creation
-                  $sql = 'INSERT INTO users (nickname, password, email) VALUES (?, ?, ?)';
+                  $userSql = 'INSERT INTO users (nickname, password, email) VALUES (?, ?, ?)';
+                  $newUser = dbConnection($userSql);
+                  $newUser->execute(array($nickname, $password, $email));
 
-                  $statement = dbConnection($sql);
-
-                  $statement->execute(array($nickname, $password, $email));
+                  $fetchNewUserSql = 'SELECT * FROM users WHERE email = ?';
+                  $fetchNewUsers = dbConnection($fetchNewUserSql);
+                  $fetchNewUsers->execute(array($email));
+                  while($fetchNewUser = $fetchNewUsers->fetch()) {
+                    $skillsSql = 'SELECT * FROM skills';
+                    $skills = dbConnection($skillsSql);
+                    $skills->execute();
+                    while($skill = $skills->fetch()) {
+                      $userSkillsSsql = 'INSERT INTO user_skill (user_id, skill_id, state_id) VALUES (?, ?, ?)';
+                      $userSkills = dbConnection($userSkillsSsql);
+                      $userSkills->execute(array($fetchNewUser['id'], $skill['id'], 1));
+                    }
+                    $htmlSql = 'UPDATE user_skill SET state_id = ? WHERE user_id = ? AND skill_id = ?';
+                    $htmlSql = dbConnection($htmlSql);
+                    $htmlSql->execute(array(2, $fetchNewUser['id'], 1));
+                  }
 
                   $successMessage = "Utilisateur créé!";
                 } else {

@@ -1,3 +1,12 @@
+.text-size-m {
+  font-size: 20px;
+}
+
+.logo h1 {
+  line-height: 15px;
+  padding-top: 10px;
+}
+
 .skill-box {
   border: 1px solid lightgrey;
   border-radius: 10px;
@@ -11,7 +20,7 @@
 }
 
 .skill-box-locked {
-  filter: grayscale(100);
+  filter: grayscale(100%);
 }
 
 .skill-box-unlocked {
@@ -24,24 +33,29 @@ a .skill-box-unlocked:hover {
 
 .level-box {
   margin-right: 100px;
+  border-radius: 15px;
 
   display: flex;
   flex-wrap: wrap;
 }
 
+.level-box:hover {
+  background-color: #FAFAFA;
+}
+
 .skill-delete-button {
-  height: 30px;
-  width: 30px;
-  border-radius: 50px;
-  background: lightgrey;
-
-  position: absolute;
-  top: 25px;
-  left: 15px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  top: -100px;
+  left: -50px;
+  span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 header {
@@ -55,4 +69,9 @@ header {
   color: white;
   text-align: center;
   padding-top: 10px;
+}
+
+.lock-image {
+  position: absolute;
+  opacity: 0.4;
 }

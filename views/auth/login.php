@@ -17,7 +17,7 @@
       </div>
 
       <div class="form-group">
-        <button class="btn btn-dark" type="submit" name="submit">Connexion</button>
+        <button class="btn btn-primary" type="submit" name="submit">Connexion</button>
         <a href="register.php" role="button" class="btn btn-outline-secondary">Pas un membre? Inscrivez-vous ici!</a>
       </div>
     </form>
