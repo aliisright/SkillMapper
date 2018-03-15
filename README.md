@@ -1,4 +1,4 @@
-# SkillTree
+# SkillMapper
 
 Map your web developer skills using this skill tree tool made with PHP, ReactJS and some love!
 
