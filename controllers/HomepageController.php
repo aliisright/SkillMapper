@@ -9,15 +9,6 @@ $levels->execute();
 $sql = "SELECT * FROM skills WHERE level = ?";
 $skills = dbConnection($sql);
 
-//Fetch the skill class
-$skillClassSql = "SELECT * FROM user_skill WHERE user_id = ? AND skill_id = ?";
-$skillClassStatement = dbConnection($skillClassSql);
-
-$childSkillsSql = "SELECT * FROM parentskill_childskill
-JOIN skills
-ON parentskill_childskill.childskill_id = skills.id
-WHERE parentskill_id = ?";
-$childSkills = dbConnection($childSkillsSql);
 
 if(isset($_GET['validatedSkillId'])) {
   skillValidate($_GET['validatedSkillId']);
@@ -26,3 +17,14 @@ if(isset($_GET['validatedSkillId'])) {
 if(isset($_GET['deletedSkillId'])) {
   skillDelete($_GET['deletedSkillId']);
 }
+
+//Score
+if(isset($_GET['addStarSkillId'], $_GET['i'])) {
+  addStar($_GET['addStarSkillId'], $_GET['i']);
+}
+
+if(isset($_GET['deleteStarSkillId'], $_GET['i'])) {
+  deleteStar($_GET['deleteStarSkillId'], $_GET['i']);
+}
+
+//Goals

@@ -68,3 +68,17 @@ function isValidated($id) {
     return false;
   }
 }
+
+function addStar($userSkillId, $newScore) {
+
+  $sql = "UPDATE user_skill SET score_id = ? WHERE id = ?";
+  $statement = dbConnection($sql);
+  $statement->execute(array($newScore, $userSkillId));
+}
+
+function deleteStar($userSkillId, $newScore) {
+
+  $sql = "UPDATE user_skill SET score_id = ? WHERE id = ?";
+  $statement = dbConnection($sql);
+  $statement->execute(array($newScore, $userSkillId));
+}

@@ -1,6 +1,6 @@
 # SkillMapper
 
-Map your web developer skills using this skill tree tool made with PHP, ReactJS and some love!
+Map your web developer skills using this skill tree tool made with PHP, VueJS and some love!
 
 ## It's a school project!
 
@@ -29,7 +29,7 @@ Map your web developer skills using this skill tree tool made with PHP, ReactJS 
 
 * [PHP 7]('http://php.net/manual/fr/index.php')
 * [Symfony 3.4]('https://symfony.com/doc/3.4/setup.html')
-* [ReactJS]('https://reactjs.org/docs/hello-world.html')
+* [VueJS 2]('https://vuejs.org/v2/guide/')
 
 ## Authors
 

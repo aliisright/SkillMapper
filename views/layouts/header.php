@@ -21,9 +21,9 @@
               <hr>
           </div>
           <div class="text-center p-3">
-            <img src="http://colloqueatpf2017.com/public/yolo_img/login_white_icon.png" width="30px">
+            <a href="login.php"><img src="http://colloqueatpf2017.com/public/yolo_img/login_white_icon.png" width="30px"></a>
           </div>
           <div class="text-center p-3">
-            <img src="http://prosoundformula.com/wp-content/uploads/2015/04/logout-big-icon-200px.png" width="30px">
+            <a href="logout.php"><img src="http://prosoundformula.com/wp-content/uploads/2015/04/logout-big-icon-200px.png" width="30px"></a>
           </div>
         </header>

@@ -1,15 +1,4 @@
 <form class="col-md-6 m-auto" method="post">
-
-    <?php
-      if(isset($_GET['formMessage'])) {
-        echo "<p class='alert alert-danger'>".$_GET['formMessage']."</p>";
-      }
-      if(isset($_GET['successMessage'])) {
-        echo "<p class='alert alert-success'>".$_GET['successMessage']."</p>";
-      }
-    ?>
-
-
   <div class="form-group">
     <label for="nickname">Pseudo</label>
     <input type="text" class="form-control" name="nickname" id="nickname" required>

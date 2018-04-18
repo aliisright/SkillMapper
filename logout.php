@@ -1,4 +1,6 @@
 <?php
-require 'controllers/Auth/LoginController.php';
-logout();
+require('Providor/AppProvidor.php');
+use Models\User;
+
+User::logout();
 ?>
